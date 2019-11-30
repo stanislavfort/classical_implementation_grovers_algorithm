@@ -20,9 +20,13 @@ In the final step, I calculate the probability that a particular answer comes ou
 ## The program
 The number of pontential solutions is specified by `N_potential_solutions` and the number of correct ones is `N_correct_solutions`. The expected number of steps to run the algorithm for is calculated in `steps_to_stop`.  
 
-## Examples
+## Examples of state rotation
+![State rotation, example 1](grovers_rotation_20_1.png)
+![State rotation, example 2](grovers_rotation_100_1.png)
+![State rotation, example 2](grovers_rotation_500_1.png)
 
-
+## Examples of amplitude concentration on the correct solution
+![Amplitude concentration, example 1](grovers_probs_20_2.png)
 
 
 
