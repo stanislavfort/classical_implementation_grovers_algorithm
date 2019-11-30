@@ -1,6 +1,6 @@
 # A classical (non-quantum) implementation of the (quantum) Grover's algorithm
 
-This is a classical (non-quantum) implementation of the (quantum) Grover's algorithm. The Grover's algorithm (https://en.wikipedia.org/wiki/Grover%27s_algorithm) is an algorithm that, with high probability, identifies a solution to a black box function. Thanks to Yihui Quek (https://github.com/yquek) for explainig the algorithm to me.
+This is a classical (non-quantum) implementation of the (quantum) Grover's algorithm. The Grover's algorithm (https://en.wikipedia.org/wiki/Grover%27s_algorithm) is an algorithm that, with high probability, identifies a solution to a black box function. Thanks to Yihui Quek (https://github.com/yquek) for explaining the algorithm to me.
 
 ## Introduction
 For a black box function `f(x)` with `N` potential solutions `[x1,x2,...,xN]` (among which `k` are correct), the Grover's algorithm can with high probability identify one of the correct solutions in order `sqrt(N)` steps. This is a significant speedup compared to the order `N` steps required by the classical approach, which generally involves checking all potential solutions.
