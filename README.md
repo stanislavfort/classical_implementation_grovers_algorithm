@@ -14,6 +14,15 @@ I represent the `N_qubit` quantum state as a *vector* of `2^N_qubit` complex num
 ### A unitary operator
 A unitary operator, which changes the quantum state in a valid way, can be represented as a unitary `2^N_qubit x 2^N_qubit` matrix (https://en.wikipedia.org/wiki/Operator_(physics)#Operators_in_quantum_mechanics). To evolve the quantum state represented as a vector, you can matrix-multiply it with the corresponding matrix.
 
+### Measuring the state
+In the final step, I calculate the probability that a particular answer comes out after measuring the resulting quantum state as the square of the norm of the corresponding complex number in the vector representation of the quantum state.
+
+## The program
+The number of pontential solutions is specified by `N_potential_solutions` and the number of correct ones is `N_correct_solutions`. The expected number of steps to run the algorithm for is calculated in `steps_to_stop`.  
+
+## Examples
+
+
 
 
 
